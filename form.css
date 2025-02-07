@@ -1,0 +1,93 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(223, 223, 223);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            margin: 70px;
+        }
+
+        .container {
+            width: 50%;
+            height: 100%;
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 5px;
+            background-color: rgb(228, 151, 8);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 10);
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        select:focus {
+            border-color: #008CBA;
+        }
+
+        button {
+            background-color: #008CBA;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            outline: none;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        .hidden {
+            display: none;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        #capture-btn {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            outline: none;
+            margin-top: 10px;
+        }
+
+        #capture-btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Additional style for the video element */
+        video {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* Style for the camera container */
+        #camera-container {
+            display: none;
+        }
